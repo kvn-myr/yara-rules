@@ -1,4 +1,4 @@
-rule Ransomware_ZZ_TA2101_Maze : tag1
+rule Ransomware_ZZ_TA2101_Maze_General
 {
     meta:
         author = "Kevin Gomez Buquerin @kgbuquerin"
