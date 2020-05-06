@@ -11,8 +11,8 @@ rule Ransomware_ZZ_TA505_Clop_General
         hash1 = "a867deb1578088d066941c40e598e4523ab5fd6c3327d3afb951073bee59fb02"
     
     strings:
-        $s0 = "Caso_M41nt_Clop.bin"
-        $s1 = "clop.bin"
+        $s0 = "Caso_M41nt_Clop.bin" fullword ascii
+        $s1 = "clop.bin" fullword ascii
 
         $h0 = {3d 37 04 00 00 ?? ?? ?? ?? 05 e7 fb ff ff 83 f8 12 [0-20] 3d 2c 08 00 00} // keyboard layout
     
